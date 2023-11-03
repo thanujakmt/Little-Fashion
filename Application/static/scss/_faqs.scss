@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.faq_section{
+    .container{
+        .row{
+            .content{
+                h2{
+                    font-weight: 1000;
+                }
+                .accordion-flush{
+                    .accordion-item{
+                        h2{
+                            margin: 10px;
+                            button{
+                                font-size: 0.7em;
+                                font-weight: 100;
+                                color: rgb(75, 73, 73);
+                                &:focus{
+                                    box-shadow: none;
+                                    
+                                    background-color: none !important;
+                                    outline: none !important;
+                                    border: none !important;
+                                    color: black !important;
+                                }
+                            }
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+.accordion-button{
+    &:not(.collapsed){
+        background-color: transparent;
+    }
+    
+}

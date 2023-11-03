@@ -1,0 +1,183 @@
+
+{% extends 'Page_layout.html' %}
+
+{% block body %}
+    <section>
+        <div class="container-fluid story">
+            <div class="row details">
+                <div class="col-md-6 heading">
+                    <span style="color: red;">Company</span> 
+                    <span>Fashion</span>
+                </div>
+                <div class="col-md-6 image">
+                    <img class="img-fluid" src="/static/images/03.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid team_section">
+            <div class="container team">
+                <div class="row heading">
+                    <strong>
+                        <span>Meet our</span>
+                        <span style="color: red;" >team</span>
+                    </strong>
+                </div>
+                <div class="row image">
+                    <div class="col-lg-3 col-12 deails">
+                        <div class="row pic">
+                            <div class="col-lg-4 col-12 img-1">
+                                <img src="/static/images/14.jpg" alt="">
+                            </div>
+                            <div class="col-lg-4 col-12 p-0  name">
+                                <span>Don</span>
+                                <p>Product,VP</p>
+                            </div>
+                            <div class="col-lg-3 col-12 plus">
+                                <button type="button" class="plus_btn"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12 deails">
+                        <div class="row pic">
+                            <div class="col-lg-4 col-12 img-1">
+                                <img src="/static/images/10.jpg" alt="">
+                            </div>
+                            <div class="col-lg-4 col-12 p-0 name">
+                                <span>Kelly</span>
+                                <p>Marketing</p>
+                            </div>
+                            <div class="col-lg-3 col-12 plus">
+                                <button type="button" class="plus_btn"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-12 deails">
+                        <div class="row pic">
+                            <div class="col-lg-4 col-12 img-1">
+                                <img src="/static/images/02.jpg" alt="">
+                            </div>
+                            <div class="col-lg-4 col-12 p-0 name">
+                                <span>Marie</span>
+                                <p>Founder</p>
+                            </div>
+                            <div class="col-lg-3 col-12 plus">
+                                <button type="button" class="plus_btn"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="popup_main">
+        <div class="container popup">
+            <div class="cancel">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+                </div>
+            <h2>Don Haruko</h2>
+            <p>Product, VP</p>
+            <hr>
+            <h5>Over three years in business had the chance to work on variety of projects, with companies</h5>
+            <div class="row para">
+                <div class="col-md-5 content">
+                    <p class="deails">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-md-5 content">
+                    <p class="deails">Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse commodo viverra.</p>
+                </div>
+            </div>
+            <div class="social_icons">
+                <ul>
+                    <li>
+                        <b style="color: black;">Where to find?</b>
+                    </li>
+                    <li>
+                        <div><i class="fa-brands fa-youtube"></i></div>
+                    </li>
+                    <li>
+                        <div><i class="fa-brands fa-whatsapp"></i></div>
+                    </li>
+                    <li>
+                        <div><i class="fa-brands fa-instagram"></i></div>
+                    </li>
+                </ul>
+            </div>
+        </div>       
+    </div>
+    <section class="customer">
+        <div class="container cut_lv">
+            <div class="row content">
+                <div class="col-md-6 heading">
+                    <h2>Customer love, <br>
+                    <span style="color: red;">Little</span> Fashion</h2>
+                </div>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-md-6 deails">
+                                <p>Over three years in business, 
+                                    We've had the chance to work on a variety of projects,
+                                    with companies Lorem ipsum dolor sit amet
+                                </p>
+                                <div class="row image">
+                                    <div class="col-lg-2 col-12">
+                                        <img src="/static/images/14.jpg" alt="">
+                                    </div>
+                                    <div class="col-lg-4 col-12">
+                                        <strong style="color: rgb(76, 75, 75);">George, <span style="color: gray;">Digital Art Fashion</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="carousel-item">
+                            <div class="col-md-6 deails">
+                                <p>Over three years in business, 
+                                    We've had the chance to work on a variety of projects,
+                                    with companies Lorem ipsum dolor sit amet
+                                </p>
+                                <div class="row image">
+                                    <div class="col-lg-2 col-12">
+                                        <img src="/static/images/10.jpg" alt="">
+                                    </div>
+                                    <div class="col-lg-4 col-12">
+                                        <strong style="color: rgb(76, 75, 75);">Kelly, <span style="color: gray;">Marketing</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                
+                        <div class="carousel-item">
+                            <div class="col-md-6 deails">
+                                <p>Over three years in business, 
+                                    We've had the chance to work on a variety of projects,
+                                    with companies Lorem ipsum dolor sit amet
+                                </p>
+                                <div class="row image">
+                                    <div class="col-lg-2 col-12">
+                                        <img src="/static/images/02.jpg" alt="">
+                                    </div>
+                                    <div class="col-lg-4 col-12">
+                                        <strong style="color: rgb(76, 75, 75);">Marie, <span style="color: gray;">Founder</span></strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+{% block script %}
+    <script src="{{ url_for('static', filename='/js/story.js') }}"></script>
+{% endblock %}
